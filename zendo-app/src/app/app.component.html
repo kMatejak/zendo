@@ -1,3 +1,10 @@
 <div *ngIf="quote">
-  {{ quote }}
+  <h3>{{ title }}</h3>
+  <p>{{ text }}</p>
+  <p>{{ author }}</p>
 </div>
+<h3>{{ quote }}</h3>
+<button (click)="getQuote()">random ⟳</button>
+
+<br />
+<h5>test h5</h5>
